@@ -9,7 +9,7 @@ client = "mongodb+srv://kumar21:qwerty123456@cluster0.vbh9imy.mongodb.net/?retry
 
 
 
-DATA_FILE_PATH = (r'D:\BOOTCAMP\2_Price prediction\Project2_ml_price\train.csv')
+DATA_FILE_PATH = (r'D:\BOOTCAMP\2_Price prediction\Project2_ml_price\Data\train.csv')
 DATABASE ="machine_learning"
 COLLECTION_NAME = "DATASET"
 
