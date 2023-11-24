@@ -54,6 +54,8 @@ if __name__ =="__main__":
     
     
     # Access the desired databased and collection
+## firdt e are going to set out mongodb creditnail
+    # under this creditnal ((client = pymongo.MongoClient(uri))) under this databased(db)
     db =client[DATABASE]
     collection =db[COLLECTION_NAME]
 
