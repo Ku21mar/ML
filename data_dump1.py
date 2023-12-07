@@ -77,3 +77,38 @@ if __name__ =="__main__":
     # Access the desired databased and collection
     # db =client[DATABASE]
     # collection =db[COLLECTION_NAME] 
+
+
+
+
+
+    ##########__________________________________________________###################3
+    """after uloafding complete dta so in thie wat like in a company what you will get a ata so ur client told u
+    our data are avialable over mongodb.first of all u need to fect hte entire data in ur local system 
+    and then you can perform a complete pipeline operation 
+    data injection .data transformation etect like whatever the pipeline we can impleiment 
+    each and everything 
+    1 --  Fetch the entire data into our local system 
+    
+    
+    Now we are going to go fect thre entire data from mongoDB into our local system """
+
+## NEXT STEEEPppppppp
+
+    """_____________NOtE____________"""
+
+    """jo hmare creditinal wo data_dump1 file me ha.let say if i m pushing this file over the gitub so any member they can access my complete creditinal
+    where this particular(url) link"""
+
+    """ Now I m going to do I m going to create the  dot(.env) env file and in this particular env file first of all i will create a 3 variable 
+    __ Username 
+    __password
+    __clusterlevel"""
+
+    """based upon this on i ill put it down our comlete creditinal information under this .env file 
+     __ Username = 
+    __password= 
+    __clusterlevel = 
+    now i m goint o push this partivaular data over github in thhus case that wr can add this partiaular do env file under the our .gitignore folder so that whenever
+    wheb we can push that over github this partcular 
+    data it will get ignore this particaular file mainly"""
