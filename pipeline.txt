@@ -1,0 +1,31 @@
+1. Data Ingestion pipeline 
+
+a. config.yaml  -completed
+b. constant file - completed
+c. config_entity - completed
+d. artifact_entity - completed
+e. helper function - completed
+f. data_ingestion file 
+g. trainning_pipeline 
+h. testing 
+
+a. config.yaml
+b. config_entity
+c. artifact_entity
+d. constant file 
+e. helper function
+f. data_ingestion file 
+g. trainning_pipeline
+h. testing 
+
+2. Data Transformation pipeline
+
+ a. config.yaml  -completed
+ b. schema.yaml : becauase here  i want to validate mmy data whenever I received the new data from my client  -completed
+ c. constant file to define the variable under constant file  -completed 
+ d. config_entity  - completed
+ e. artifact_entity
+ f. if requied create the helper function under utlis file 
+ g. Data transformation pipeline
+ h. training pipeline 
+ i. testing ( here we want to test out training pipeline )

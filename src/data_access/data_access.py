@@ -6,9 +6,9 @@
 import pandas as pd 
 import os ,sys
 import json
-import pymongo
+import pymongo # our data are available over mongodb ,so with pymngo we can fetch the data to local system  
 
-from dotenv import load_dotenv ## 
+from dotenv import load_dotenv ## why dotenv ? becox we need to import information from this particular .Env file 
 
 
 # step 2 : define mongodb client 
@@ -26,7 +26,7 @@ def mongdb_client():
     mongo_db_url =f"mongodb+srv://{username}:{password}@{clsuter_name}.mongodb.net/?retryWrites=true&w=majority"
 #23:00 why we need this particular link becassue we can access this complete becoz  
     print(mongo_db_url)
-
+# define the complete client
     client =pymongo.MongoClient(mongo_db_url)
 
     return client

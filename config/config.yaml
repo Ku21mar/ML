@@ -1,0 +1,51 @@
+# In MLOps (Machine Learning Operations), a config.yaml file is commonly used to store configuration parameters 
+# and settings for machine learning workflows, pipelines, or projects.
+
+# yaml file :::  contain key-value pairs
+
+training_pipeline_config:
+  pipeline_name : Artifact
+  artiact_dir: artifact
+
+
+#artifact / data_ingestion/ raw_data & ingested_data / train & test
+data_ingestion_config:
+  #step1 we need data base and collection name ( complete ctreditinal)
+  data_base : Machine_Learning 
+  collection_name: DATASET
+  #step2 : creating data ingestion directtory and raw data dir for storering the train.csv
+  data_ingestion: data_ingestion
+
+  raw_data_dir: raw_data
+  ingested_dir: ingested_data
+
+  ingested_train_dir: Train
+  ingested_test_dir: Test
+
+#raw data : under this whatever the data we are going to download we are goingg to store under this raw data dir 
+
+
+
+
+#1:08|:10
+#Next step  go to" SRC folder" --> "constant file" --> "__init__ "
+
+
+
+# --------------------------------------------------------------------------
+# config.yaml file are used to define our variable and value 
+#------------- Data Transformation------------------------------------------
+
+# data_transformation /transformed_data / train & test / processed / processed.pkl & feature_eng.pkl
+
+data_transformation_config:   ## first of all we are going to create an object , we can say object Data_transformation_config object anmd under this object these( below) are complete vars and value we have .first of all we are goig to create the multiple directory
+  data_transformation_dir : data_transformation
+  transformed_dir: transformed_data
+  transformed_train_dir : train
+  transformed_test_dir : test
+  procedding_dir : processed
+# after preprocessing complete  data _trnsformation and feature eng what i want ? i want to save the pickel file for tht again i m going to create a vars called preprocessed_object_file_name
+  preprocessed_object_file_name : processed.pkl
+  feature_eng_file : feature_eng.pkl
+
+
